@@ -8,7 +8,8 @@
 
     <Button
         android:id="@+id/button_toast"
-        android:layout_width="match_parent"
+        android:onClick="showToast"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -41,7 +42,8 @@
 
     <Button
         android:id="@+id/button_count"
-        android:layout_width="376dp"
+        android:onClick="countUp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
